@@ -1,0 +1,9 @@
+{
+    "stdio_servers": [
+        "/home/dell/Documents/mcp/weather/weather.py"
+    ],
+    "sse_servers": [
+        "https://btc.maratech.com/",
+        "https://insurancemcpserver.up.railway.app/"
+    ]
+}
