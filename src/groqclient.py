@@ -2,16 +2,18 @@ import os
 import json
 from contextlib import AsyncExitStack
 from typing import Dict
-from dotenv import load_dotenv
 from groq import Groq
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 from mcp.client.sse import sse_client
 
-from constants import CLIENT_MODEL, TOOL_RESPONSE_LIMIT
+from dotenv import load_dotenv
+from constants import TOOL_RESPONSE_LIMIT
 
 load_dotenv()  # load environment variables from .env
 
+# Groq client
+CLIENT_MODEL = os.environ.get("CLIENT_MODEL", "llama-3.1-8b-instant")
 print(f"Using {CLIENT_MODEL = }")
 
 

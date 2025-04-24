@@ -1,7 +1,3 @@
-import os
-
-# Groq client
-CLIENT_MODEL = os.environ.get("CLIENT_MODEL", "llama-3.1-8b-instant")
 TOOL_RESPONSE_LIMIT = 1000
 
 # CLI chat

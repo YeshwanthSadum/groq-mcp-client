@@ -57,5 +57,5 @@
 
    2. Run the CLI chat tool:
    ```
-   python main.py
+   python src/main.py
    ```
