@@ -12,6 +12,7 @@
    source .venv/bin/activate  # Linux/Mac
    # or .\.venv\Scripts\activate on Windows
    ```
+   to install uv you can follow https://docs.astral.sh/uv/getting-started/installation/
 
 3. Install dependencies (uv will read from pyproject.toml and uv.lock):
    ```bash
