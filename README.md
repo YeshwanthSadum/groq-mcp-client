@@ -12,15 +12,15 @@
    source .venv/bin/activate  # Linux/Mac
    # or .\.venv\Scripts\activate on Windows
    ```
-   If you don't have uv, you can follow these [steps](https://docs.astral.sh/uv/getting-started/installation/) to install it.
+   If you don't have uv, you can follow [these](https://docs.astral.sh/uv/getting-started/installation/) steps and install it.
 
-3. Install dependencies (uv will read from pyproject.toml and uv.lock):
+4. Install dependencies (uv will read from pyproject.toml and uv.lock):
    ```bash
    uv pip install -e .  # For editable install
    # or
    uv pip install .     # For regular install
    ```
-4. Add .env file:
+5. Add .env file:
    ```bash
    GROQ_API_KEY='gsk_**'
    CLIENT_MODEL='deepseek-r1-distill-llama-70b'
