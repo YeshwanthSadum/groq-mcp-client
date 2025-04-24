@@ -3,7 +3,7 @@
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd mcp-client
+   cd groqcloud-mcp-client
    ```
 
 2. Create virtual environment and activate it:
